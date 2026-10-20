@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  width: 100vw;
+  height: 93vh;
+  gap: 5px;
+}
+
+.grid-item {
+  background-color: rgb(229, 236, 255);
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+header {
+  height: 7vh;
+  padding: 10px;
+  font-size: 24px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 20px 5px 20px;
+}
+
+input {
+  height: 35px;
+  width: 400px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/**
+Fitzgerald Key - Background Colors
+https://www.communicationcommunity.com/fitzgerald-key-for-aac/
+*/
+.noun {
+  background-color: rgb(255, 179, 62);
+}
+
+.pronoun {
+  background-color: rgb(255, 230, 130);
+}
+
+.verb {
+  background-color: rgb(158, 226, 129);
+}
+
+.adjective {
+  background-color: rgb(105, 200, 255);
+}
+
+.preposition {
+  background-color: rgb(255, 140, 210);
+}
+
+.question {
+  background-color: rgb(168, 126, 255);
+}
+
+.important {
+  background-color: rgb(255, 80, 80);
+}
+
+.adverb {
+  background-color: rgb(193, 154, 132);
+}
+
+.conjunction {
+  background-color: rgb(255, 255, 255);
+}
+
+.determiner {
+  background-color: rgb(70, 70, 70);
+}

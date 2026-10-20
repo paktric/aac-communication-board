@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AAC Communication Board</title>
+  <meta name="description" content="A free and open-source communication board for people with communication disorders.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <label>Custom phrase:</label>
+  <input type="text" id="textbox">
+  <button type="button" onClick=getText()>Speak</button>
+  <button type="reset" onClick=clearText()>Clear</button>
+</header>
+
+<!----------------  Start of grid  ---------------->
+<div class="grid-container">
+  <div class="grid-item important" onClick=speak("Yes")>
+    <div class="grid-title">Yes</div>
+    <img src="icons/yes.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item important" onClick=speak("No")>
+    <div class="grid-title">No</div>
+    <img src="icons/no.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item verb" onClick=speak("Stop")>
+    <div class="grid-title">Stop</div>
+    <img src="icons/stop.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item verb" onClick=speak("Wait")>
+    <div class="grid-title">Wait</div>
+    <img src="icons/wait.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item verb" onClick=speak("Help")>
+    <div class="grid-title">Help</div>
+    <img src="icons/help.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item pronoun" onClick=speak("I")>
+    <div class="grid-title">I</div>
+    <img src="icons/i.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item pronoun" onClick=speak("Me")>
+    <div class="grid-title">Me</div>
+    <img src="icons/me.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item verb" onClick=speak("Go")>
+    <div class="grid-title">Go</div>
+    <img src="icons/go.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item verb" onClick=speak("Play")>
+    <div class="grid-title">Play</div>
+    <img src="icons/play.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Happy")>
+    <div class="grid-title">Happy</div>
+    <img src="icons/happy.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item pronoun" onClick=speak("You")>
+    <div class="grid-title">You</div>
+    <img src="icons/you.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item noun" onClick=speak("Friend")>
+    <div class="grid-title">Friend</div>
+    <img src="icons/friend.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Hungry")>
+    <div class="grid-title">Hungry</div>
+    <img src="icons/hungry.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Thirsty")>
+    <div class="grid-title">Thirsty</div>
+    <img src="icons/thirsty.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Sad")>
+    <div class="grid-title">Sad</div>
+    <img src="icons/sad.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item noun" onClick=speak("Outside")>
+    <div class="grid-title">Outside</div>
+    <img src="icons/outside.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item noun" onClick=speak("Bathroom")>
+    <div class="grid-title">Bathroom</div>
+    <img src="icons/bathroom.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Pain")>
+    <div class="grid-title">Pain</div>
+    <img src="icons/pain.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Tired")>
+    <div class="grid-title">Tired</div>
+    <img src="icons/tired.svg" alt="" height=70px>
+  </div>
+
+  <div class="grid-item adjective" onClick=speak("Confused")>
+    <div class="grid-title">Confused</div>
+    <img src="icons/confused.svg" alt="" height=70px>
+  </div>
+
+
+</div> <!-- end grid-container -->
+
+<script src="script.js"></script>
+</body>
+</html>
