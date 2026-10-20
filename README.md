@@ -10,6 +10,14 @@ It's a single web page made with plain HTML, CSS and JavaScript, so there's noth
 
 Tile colors follow the [Fitzgerald Key](https://www.communicationcommunity.com/fitzgerald-key-for-aac/), a common AAC color scheme for parts of speech.
 
+## Ideas for later
+
+- Switch to [Mulberry Symbols](https://mulberrysymbols.org/), an open symbol set designed for AAC, once the board grows beyond everyday words. It covers words emoji can't show well, like "I," "me," "more" and "finished." It's CC BY-SA 4.0, so it would need a credit line on the board.
+- Customizable tiles
+- Adjustable grid sizing
+- Text-to-speech voice settings
+- Folders and multiple pages
+
 ## Credits
 
 Icons are [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) by Microsoft, used under the MIT License (see `icons/LICENSE`).

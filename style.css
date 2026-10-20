@@ -22,6 +22,11 @@
   text-align: center;
 }
 
+/* Space between each tile's word and its icon */
+.grid-title {
+  margin-bottom: 15px;
+}
+
 header {
   height: 7vh;
   padding: 10px;
